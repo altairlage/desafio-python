@@ -1,0 +1,14 @@
+[
+  {
+    "callerNumber": "+5535984491985",
+    "targetNumber": "+5535984449966",
+    "startedTime": 1566839534000,
+    "duration": 1304000
+  },
+  {
+    "callerNumber": "+5535984491985",
+    "targetNumber": "+5535984142679",
+    "startedTime": 1566839584000,
+    "duration": 400000
+  }
+]

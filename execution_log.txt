@@ -1,0 +1,30 @@
+C:\Users\acampos\PycharmProjects\untitled>python coding_chalenge.py -b billing1.json
+*** Call Info:
+{'callerNumber': '+5535984491985', 'targetNumber': '+5535984449966', 'startedTime': 1566839534000, 'duration': 1304000}
+*** Caller data from DynamoDB table:
+[{'customerName': 'Altair Campos', 'customerAddress': 'Rua dos Jasmins', 'offerId': '1567276667310', 'customerNumber': '+5535984491985', 'customerId': '1567276915187'}]
+*** Target data from DynamoDB table:
+[{'customerName': 'Jose da silva', 'customerAddress': 'Rua das Palmeiras', 'offerId': '1567276667310', 'customerNumber': '+5535984449966', 'customerId': '1567276928698'}]
+*** Pricing data from DynamoDB table:
+[{'price': Decimal('0.15'), 'offercustomerName': 'Tim Beta', 'offerId': '1567276667310'}]
+
+*** Call Info:
+{'callerNumber': '+5535984491985', 'targetNumber': '+5535984142679', 'startedTime': 1566839584000, 'duration': 400000}
+*** Caller data from DynamoDB table:
+[{'customerName': 'Altair Campos', 'customerAddress': 'Rua dos Jasmins', 'offerId': '1567276667310', 'customerNumber': '+5535984491985', 'customerId': '1567276915187'}]
+*** Target data from DynamoDB table:
+[{'customerName': 'Tiao Roque', 'customerAddress': 'Rua das Hortencias', 'offerId': '1567276667310', 'customerNumber': '+5535984142679', 'customerId': '1567278089964'}]
+*** Pricing data from DynamoDB table:
+[{'price': Decimal('0.15'), 'offercustomerName': 'Tim Beta', 'offerId': '1567276667310'}]
+
+
+
+
+Total price for the billing period is: R$ 4.26
+Please find the details below:
++---------------+---------------+--------------------------+----------+---------+
+|     Caller    |     Target    |        Start Time        | Duration |  Price  |
++---------------+---------------+--------------------------+----------+---------+
+| Altair Campos | Jose da silva | Mon Aug 26 14:12:14 2019 | 0:21:44  | R$ 3.26 |
+| Altair Campos |   Tiao Roque  | Mon Aug 26 14:13:04 2019 | 0:06:40  | R$ 1.00 |
++---------------+---------------+--------------------------+----------+---------+
