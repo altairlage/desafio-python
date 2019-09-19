@@ -1,6 +1,6 @@
-# desafio-python-wg
+# desafio-python
 
-My solution for WG python challenge.
+My solution for python challenge.
 
 
 # Coding challenge
